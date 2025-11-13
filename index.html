@@ -104,6 +104,44 @@ Date retrieved: Wednesday, November 12, 2025
       .dropdown:hover .dropdown-content {
         display: block;
       }
+
+      .content {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        clear: both;
+      }
+
+      .half-left {
+        width: 60%;
+        float: left;
+        padding: 50px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(247, 246, 246);
+        line-height: 2em;
+        height: 463px;
+        font-size: 1.5em;
+      }
+
+      .half-right {
+        width: 40%;
+        float: left;
+        box-sizing: border-box;
+      }
+
+      .fullwidth {
+        width: 100%;
+        display: block;
+        clear: both;
+        margin: 0;
+        margin-top: 2em;
+        height: auto;
+      }
+      
     </style>
   </head>
   <body>
@@ -122,6 +160,23 @@ Date retrieved: Wednesday, November 12, 2025
       <li><a href="#news">Resume</a></li>
       <li><a href="#home">Contact</a></li>
     </ul>
+
+    <div class="content">
+      <div class="half-left">
+        <p>
+          Hi, my name is Sydney! I am a Global Business Digital Arts Student at University of Waterloo, designing innovative products which improve everyday lives.
+        </p>
+      </div>
+
+      <div class="half-right">
+        <img src="me.png" alt="Photo of me" style="width:100%;">
+      </div>
+
+    </div>
+
+    <div class="fullwidth">
+      <img src="line.png" alt="diagonal black line" style="width:100%;">
+    </div>
 
   </body>
 </html>
