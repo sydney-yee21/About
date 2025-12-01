@@ -36,10 +36,18 @@ Description: Demonstrates how to create a image overlay another an image
 
 Date retrieved: Wednesday, November 12, 2025
 -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kedebideri:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <style>
       html {
         font-size: 16px;
-        /* change ems */
       }
 
       body {
@@ -56,6 +64,7 @@ Date retrieved: Wednesday, November 12, 2025
         height: 80px;
         display: flex;
         align-items: center;
+        font-family: "Open-Sans", sans-serif;
       }
 
       li {
@@ -148,51 +157,56 @@ Date retrieved: Wednesday, November 12, 2025
         margin-top: 2em;
         height: auto;
       }
-      
+
       .width {
         width: 1200px;
         margin: auto;
       }
+
+      p {
+        font-family: "Kedebideri", sans-serif;
+        font-size: 1.2em;
+        line-height: 2em;
+      }
     </style>
-      
-    </style>
+
   </head>
   <body>
     <div class="width">
-       <ul>
-      <li class="logo"><a href="https://sydney-yee21.github.io/Home/"><img src="Logo.png" alt="Sydney Yee" style="width:120px; height:50px;"></a></li>
-      <li><a href="https://sydney-yee21.github.io/Home/">Home</a></li>
-      <li><a href="https://sydney-yee21.github.io/About/"><b>About</b></a></li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Projects</a>
-        <div class="dropdown-content">
-          <a href="https://sydney-yee21.github.io/Videography/">Videography</a>
-          <a href="https://sydney-yee21.github.io/Service-Design/">Service Design</a>
-          <a href="https://sydney-yee21.github.io/Website-Redesign/">Website Redesign</a>
+      <ul>
+        <li class="logo"><a href="https://sydney-yee21.github.io/Home/"><img src="Logo.png" alt="Sydney Yee" style="width:120px; height:50px;"></a></li>
+        <li><a href="https://sydney-yee21.github.io/Home/">Home</a></li>
+        <li><a href="https://sydney-yee21.github.io/About/"><b>About</b></a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Projects</a>
+          <div class="dropdown-content">
+            <a href="https://sydney-yee21.github.io/Videography/">Videography</a>
+            <a href="https://sydney-yee21.github.io/Service-Design/">Service Design</a>
+            <a href="https://sydney-yee21.github.io/Website-Redesign/">Website Redesign</a>
+          </div>
+        </li>
+        <li><a href="https://sydney-yee21.github.io/Resume/">Resume</a></li>
+        <li><a href="https://sydney-yee21.github.io/Contact/">Contact</a></li>
+      </ul>
+
+      <div class="content">
+        <div class="half-left">
+          <p>
+            Hi, my name is Sydney! <br> I am a Global Business Digital Arts Student at University of Waterloo, designing innovative products which improve everyday lives.
+          </p>
         </div>
-      </li>
-      <li><a href="https://sydney-yee21.github.io/Resume/">Resume</a></li>
-      <li><a href="https://sydney-yee21.github.io/Contact/">Contact</a></li>
-    </ul>
 
-    <div class="content">
-      <div class="half-left">
-        <p>
-          Hi, my name is Sydney! I am a Global Business Digital Arts Student at University of Waterloo, designing innovative products which improve everyday lives.
-        </p>
+        <div class="half-right">
+          <img src="me.png" alt="Photo of me" style="width: 100%; height: auto; display: block;">
+        </div>
+
       </div>
 
-      <div class="half-right">
-        <img src="me.png" alt="Photo of me" style="width: 100%; height: auto; display: block;">
+      <div class="fullwidth">
+        <img src="line.png" alt="diagonal black line" style="width:100%;">
       </div>
 
     </div>
 
-    <div class="fullwidth">
-      <img src="line.png" alt="diagonal black line" style="width:100%;">
-    </div>
-
-    </div>
-   
   </body>
 </html>
